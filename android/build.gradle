@@ -53,7 +53,7 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "http://paciolan.mobilesdk.s3.amazonaws.com/releases"
+            url "https://paciolan.mobilesdk.s3.amazonaws.com/releases"
             }
     }
 }
