@@ -53,11 +53,11 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "https://paciolan.mobilesdk.s3.amazonaws.com/releases"
-            }
+            url "http://s3.us-west-2.amazonaws.com/paciolan.mobilesdk/releases"
+        }
     }
 }
 
 dependencies {
-    implementation 'com.paciolan:mobilesdk:4.1.0'
+    implementation 'com.paciolan:mobilesdk:4.1.1'
 }
