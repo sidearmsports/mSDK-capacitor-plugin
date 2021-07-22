@@ -38,7 +38,6 @@ repositories {
     mavenCentral()
 }
 
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':capacitor-android')
@@ -51,6 +50,8 @@ dependencies {
 
 repositories {
     google()
+    jcenter()
+    mavenCentral()
     maven {
         url = uri("https://s3.us-west-2.amazonaws.com/paciolan.mobilesdk/releases")
     }
