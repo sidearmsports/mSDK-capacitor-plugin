@@ -12,7 +12,7 @@ public class PaciolanSdk: CAPPlugin {
 
         let paciolanSDKViewController: UIViewController = PaciolanSDKViewController(string: config)
         DispatchQueue.main.async {
-            self.bridge.viewController.present(paciolanSDKViewController, animated: true, completion: nil)
+            self.bridge?.viewController?.present(paciolanSDKViewController, animated: true, completion: nil)
         }
 
         call.resolve([
