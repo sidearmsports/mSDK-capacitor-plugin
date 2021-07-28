@@ -8,7 +8,7 @@ import com.getcapacitor.PluginMethod;
 
 import com.paciolan.mobileSDK.MobileSDK;
 
-@NativePlugin()
+@CapacitorPlugin(name = "Fanmaker")
 public class PaciolanSdk extends Plugin {
 
     @PluginMethod()

@@ -14,10 +14,3 @@ export class PaciolanSdkPluginWeb extends WebPlugin
     return options;
   }
 }
-
-const PaciolanSdk = new PaciolanSdkPluginWeb();
-
-export { PaciolanSdk };
-
-import { registerWebPlugin } from "@capacitor/core";
-registerWebPlugin(PaciolanSdk);
