@@ -13,13 +13,13 @@
   "author": "Paciolan Mobile Team <pacmobile@paciolan.com>",
   "license": "No License",
   "dependencies": {
-    "@capacitor/core": "latest"
+    "@capacitor/core": "3.9.0"
   },
   "devDependencies": {
     "typescript": "^3.2.4",
     "@capacitor/ios": "latest",
     "@capacitor/android": "latest",
-    "@capacitor/core": "latest"
+    "@capacitor/core": "3.9.0"
   },
   "files": [
     "dist/",
